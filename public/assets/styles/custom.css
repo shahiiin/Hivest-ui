@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  /* colors  */
+  --black-color: #181a1d;
+  --yellow-color: #f8c337;
+  --white-color: #ffffff;
+  --gray-color: #e0e5ec;
+  --lightyellow-color: #E9DB91;
+  --glozed-color: #f1dc6f;
+  --mango-color: #f8dd50;
+  --golden-color: #fcd612;
+  --primary-background-color: #e5e5e5;
+  --dark-background-color: #181a1d;
+
+  /* new colors  */
+  --black-color: #181a1d;
+
+
+
+  /* font weights variables */
+  --font-weight-9x: 900 !important;
+  --font-weight-8x: 800 !important;
+  --font-weight-7x: 700 !important;
+  --font-weight-6x: 600 !important;
+  --font-weight-5x: 500 !important;
+  /* font size */
+  --font-size-1x: 0.8rem !important;
+  --font-size-2x: 1.8rem !important;
+  --font-size-3x: 2rem !important;
+  /* raduis sizes */
+  --border-raduis-1: 0.5rem;
+  --border-raduis-2: 1rem;
+  --border-raduis-3: 2rem;
+  --border-raduis-4: 3rem;
+  --border-raduis-4: 4rem;
+  --border-raduis-5: 7rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

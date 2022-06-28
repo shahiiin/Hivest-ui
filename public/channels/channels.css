@@ -1,0 +1,208 @@
+/* aside menu */
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.wrapper_row {
+    min-height: 100vh;
+}
+
+.wrapper aside {
+    /* width: 16.39%; */
+    background: #1E2429;
+    background-image: url('./../assets/images/channel/aside.svg');
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.wrapper main {
+    background: #181A1D;
+    padding-left: 3rem;
+    /* width: 83.16%; */
+}
+
+.wrapper h2 {
+    color: #F8C02D;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.4rem;
+    margin-bottom: 4.34rem;
+}
+
+.wrapper img {
+    width: 1.12rem;
+    min-height: 1.12rem;
+}
+
+.sidebar_nav {
+    padding-left: 2.62rem;
+}
+
+.nav_item {
+    display: flex;
+}
+
+.wrapper span {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-left: 1.12rem;
+    margin-top: 1rem;
+}
+
+/* title header*/
+
+main .title {
+    margin-top: 4rem;
+}
+
+.channel_content h1 {
+    color: #ffffff;
+}
+
+.channel_content input {
+    background: #1E2429;
+    border: none;
+    width: 100%;
+    min-height: 2rem;
+}
+
+::placeholder {
+    color: #39454F;
+    font-size: 0.87rem;
+    padding-left: 1.12rem;
+}
+
+/* title card */
+
+.card {
+    min-height: 25.56rem;
+    width: 100%;
+    background-color: #1E2429;
+    border-radius: 0.37rem;
+}
+
+.card_body_hv {
+    padding: 1.56rem;
+}
+
+.card_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_header {
+    width: 100%;
+    min-height: 10.81rem;
+    background-image: linear-gradient(to bottom right, #1E2429, #B9B9B9);
+    border-radius: 0.37rem 0.37rem 0 0;
+}
+
+.second_header {
+    width: 100%;
+    min-height: 10.81rem;
+    background-image: linear-gradient(to bottom right, #1E2429, #BB4040);
+    border-radius: 0.37rem 0.37rem 0 0;
+}
+
+.third_header {
+    width: 100%;
+    min-height: 10.81rem;
+    background-image: linear-gradient(to bottom right, #1E2429, #AF28A2);
+    border-radius: 0.37rem 0.37rem 0 0;
+}
+
+.card h3 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    margin-top: 7.4rem;
+}
+
+.card h6 {
+    color: #ffffff;
+    font-size: .75rem;
+    margin-left: 1.5rem;
+}
+
+.card h4 {
+    color: #F8C02D;
+    font-size: 1.2rem;
+}
+
+.card h5 {
+    color: #ffffff;
+    opacity: .5;
+    font-size: 0.75rem;
+}
+
+.card p {
+    color: #ffffff;
+}
+
+.spot {
+    color: #ffffff;
+    background-color: #155EBB;
+    border: none;
+    font-size: 0.56rem;
+    border-radius: 1.75rem;
+    height: 1rem;
+}
+
+.Subscribed {
+    border: 0.07rem solid #F8C02D;
+    background: #F8C02D;
+    Width: 100%;
+    Height: 2.18rem;
+    margin-bottom: 0.62rem;
+}
+
+.Subscrib {
+    border: 0.07rem solid #F8C02D;
+    background: #1E2429;
+    Width: 100%;
+    Height: 2.18rem;
+    margin-bottom: 0.62rem;
+    color: #F8C02D;
+}
+
+.read_more {
+    opacity: 0.41;
+    border: 0.07rem solid #FFFFFF;
+    background: #1E2429;
+    Width: 100%;
+    Height: 2.18rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width:767px) {
+    .wrapper aside {
+        display: none;
+    }
+    .wrapper main {
+        padding-left: 0;
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 2rem;
+    }
+    .channel_content input {
+        margin-bottom: 2rem;
+    }
+    .channel_content h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .Subscribed {
+        Width: 100%;
+    }
+    .Subscrib {
+        Width: 100%;
+    }
+    .read_more {
+        Width: 100%;
+    }
+}

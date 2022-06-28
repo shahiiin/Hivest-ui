@@ -1,0 +1,59 @@
+/* Slider */
+#slider {
+  background: url(../assets/images/landing/s2.png) left bottom no-repeat,
+    url(../assets/images/landing/s1.png) right bottom no-repeat,
+    url(../assets/images/landing/sv1.svg) left bottom no-repeat,
+    url(../assets/images/landing/sv2.svg) right bottom no-repeat,
+    linear-gradient(to bottom, #1d1f23, #40454d);
+}
+
+@media (max-width: 826px) {
+  #slider {
+    background: url(../assets/images/landing/sv1.svg) left bottom no-repeat,
+      linear-gradient(to bottom, #1d1f23, #40454d);
+  }
+}
+
+/* Benefits */
+.benefits-item hr {
+  border: 0.063rem solid #f8c337;
+  width: 4rem;
+}
+
+.benefits-item p {
+  color: rgba(64, 64, 64, 0.8);
+}
+
+/* Stat */
+#stat {
+  background: url(../assets/images/landing/sv5.svg) left center no-repeat,
+    url(../assets/images/landing/sv4.svg) right center no-repeat, #29343b;
+}
+#stat .uprow {
+  position: relative;
+  top: -10rem;
+}
+#stat {
+  margin-top: 10rem !important;
+}
+@media (max-width: 767px) {
+  .stat-item {
+    border: none !important;
+  }
+}
+
+/* time-line */
+@media (max-width: 767px) {
+  #time-line .time-line-item{
+    margin: 2.5rem 0;
+  }
+  #time-line .col-title {
+    order: 1;
+    margin-top: -1.5rem;
+  }
+}
+
+/* channels */
+#channels {
+  background: linear-gradient(180deg, #29343b 0%, #1e272d 100%);
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Footer */
+footer {
+  background: #29343b;
+}
+.subscribe input {
+  background: #94999d;
+  border-color: #94999d;
+}
+.links-footer ul li a {
+  color: #d0d2d4;
+}
+.social-icons ul li a {
+  color: #d0d2d4;
+}
+
+/* Header */
+header,
+header .bg-dark {
+  background: #1d1f23 !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 0.5rem 1.5rem;
+}
+.bg-gray {
+  background: #c4c4c4;
+}
+.text-tit {
+  font-size: 0.8rem;
+}
+
+#channels .table td, .table th{
+  padding: 0.5rem;
+
+}

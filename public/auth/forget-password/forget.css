@@ -1,0 +1,82 @@
+/* Global Styling */
+
+
+/*styles*/
+
+
+
+input[type="email"] {
+  border-radius: 0.5rem;
+  background-color: #e0e5ec;
+  font-size: var(--normal-font-size);
+  line-height: var(--normal-line-height);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  margin-top: 3.25rem;
+}
+a.forget-pass-link {
+  text-decoration: none;
+  color: var(--main-bg-color);
+  font-size: var(--sm-font-size);
+  line-height: var(--sm-line-height);
+  font-weight: var(--font-weight);
+}
+.forget-pass-txt {
+  font-size: var(--sm-font-size);
+  line-height: var(--sm-line-height);
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4.1875rem;
+}
+.login-section {
+  font-size: var(--sm-font-size);
+  line-height: var(--sm-line-height);
+  color: #404040;
+  font-weight: var(--font-weight);
+  margin-top: 1.5rem;
+}
+.login-section a {
+  color: #2a67c2 !important;
+  text-decoration: none;
+
+}
+
+
+/* override bootstrap buttons */
+
+
+
+.btn__primary {
+  background-color: var(--yellow);
+  font-size: var(--normal-line-height);
+  color: var(--main-bg-color);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-weight);
+  border-radius: 0.5rem;
+}
+.btn__primary a {
+  text-decoration: none;
+  color: var(--body-font);
+}
+
+
+
+/* override bootstrap card */
+
+
+
+.card-forget-page {
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+.card-forget-page h1 {
+  font-size: var(--header-font-size);
+  color: var(--main-bg-color);
+  font-family: "Roboto";
+  font-weight: var(--font-weight);
+  text-align: center;
+}
+.card-forget-page img {
+  height: 4rem;
+  margin-top: 3.5rem;
+}
